@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+/* media responsive */
+
+@media  (min-width:300px) and (max-width:600px)
+{
+
+    .navbar{
+        height: 25px;
+        width: auto;
+        background-color:rgba(0, 0, 0, 0.506);
+        position: fixed;
+        z-index: 99;
+        padding: 15px;
+        display: flex;
+        
+        justify-content: space-evenly;
+        
+        }
+
+        
+.aa{height: 40px;
+    width: autopx;
+    color: cyan;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+
+}
+.aa:hover{
+    background-color:cyan;
+    box-shadow: 0px 0px 5px cyan, 5px 5px 25px cyan, 10px 10px 100px cyan , 100px 100px 1000px cyan ;
+    color: black;
+    
+    
+    
+}
+
+
+
+.bb{height: 40px;
+    color: cyan;
+    width: autopx; 
+    font-size: 20px;
+    text-decoration: none;
+
+
+
+}
+.cc{height: 40px;
+    color: cyan;
+    width: auto;
+    font-size: 20px;
+    text-decoration: none;
+
+
+
+}
+.dd{height: 40px;
+    color: cyan;
+    width: auto;
+    font-size: 20px;
+    text-decoration: none;
+
+
+
+}
+
+.pro1{
+    height: 600px;
+    width: auto;
+background-image: url(desk.jpg);
+background-color:black;
+
+
+}
+
+.pro2{
+
+    height: 200px;
+    width: autopx;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+
+}
+
+.text{
+    
+    height: 100px;
+    width: auto;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+
+    
+}
+
+
+.dwd{
+    
+    height: 150px;
+    width: auto;
+    background-color: black;
+    padding-left: 20px;
+
+    
+}
+
+button{
+    
+    height: 150px;
+    width: auto;
+    border: 2px solid rgba(0, 153, 255, 0.399);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px cyan, 0 0 25px cyan;
+    
+    
+}
+
+button:hover{
+
+    background-color: cyan;
+    box-shadow:0px 0px 5px cyan, 0 0 25px cyan,
+    0px 0px 25px cyan, 0 0 50px cyan,
+    0px 0px 100px cyan, 0 0 200px cyan;
+     
+
+
+
+
+}
+
+b{
+    font-size: 10px;
+
+}
+
+ 
+.p1{
+    font-size:10px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+
+
+.p2{
+    font-size: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+} 
+
+.sv1{
+
+    height:20px;
+    width:auto;
+    background-color: cyan;
+    color: aqua;
+    transition: .5s;
+    
+}
+
+.sv1:hover{
+  
+    background-color: red;
+    box-shadow: 0px 0px 5px red, 5px 5px 25px red, 10px 10px 100px red , 100px 100px 1000px red ;
+}
+
+/* media responsive */
+
+
+
+
+
+
+}
+
+
+.navbar{
+    height: 65px;
+    width: 1366px;
+    background-color:white;
+    position:fixed;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    }
+
+.box{
+
+cursor: pointer;
+
+}
+
+
+.box input{
+    height: 40px;
+    width: 0;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    /* font-weight: 500; */
+    transition: 0.8s;
+    border-radius: 30px;
+      
+}
+
+.box:hover input{
+    
+    width: 300px;
+
+
+
+}
+
+
+.aa:hover{
+    background-color:cyan;
+    box-shadow: 0px 0px 5px cyan, 5px 5px 25px cyan, 10px 10px 100px cyan , 100px 100px 1000px cyan ;
+    color: black;
+    
+    
+    
+}
+
+.bb:hover{
+    background-color:cyan;
+    box-shadow: 0px 0px 5px cyan, 5px 5px 25px cyan, 10px 10px 100px cyan , 100px 100px 1000px cyan ;
+    color: black;
+    
+    
+    
+}
+
+.cc:hover{
+    background-color:cyan;
+    box-shadow: 0px 0px 5px cyan, 5px 5px 25px cyan, 10px 10px 100px cyan , 100px 100px 1000px cyan ;
+    color: black;
+    
+    
+    
+}
+
+.dd:hover{
+    background-color:cyan;
+    box-shadow: 0px 0px 5px cyan, 5px 5px 25px cyan, 10px 10px 100px cyan , 100px 100px 1000px cyan ;
+    color: black;
+    
+    
+    
+}
+
+
+.aa{height: 80px;
+    width: 120px;
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+
+
+    
+
+}
+
+
+
+
+.bb{height: 80px;
+    color: black;
+    width: 120px; 
+    text-decoration: none;
+    transition: 1s;
+    font-size: 25px;
+
+
+
+
+}
+.cc{height: 80px;
+    color:black;
+    width: 120px;
+    transition: 1s;
+    text-decoration: none; 
+
+
+
+}
+.dd{height: 80px;
+    color: black;
+    width: 120px;
+    transition: 1s;
+    text-decoration: none; 
+
+
+
+}
+
+.pro1{
+    height: 1200px;
+    width: 1366px;
+background-image: url(desk.jpg);
+background-color:black;
+
+
+}
+
+.pro2{
+
+    height: 800px;
+    width: 1366px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+
+}
+
+.text{
+    
+    height: 600px;
+    width: 683px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+
+    
+}
+
+
+.dwd{
+    
+    height: 650px;
+    width: 683px;
+    background-color: black;
+    padding-left: 100px;
+
+    
+}
+
+button{
+    
+    height: 600px;
+    width: 550px;
+    border: 2px solid rgba(0, 153, 255, 0.399);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px cyan, 0 0 25px cyan;
+    
+    
+}
+
+button:hover{
+
+    background-color: cyan;
+    box-shadow:0px 0px 5px cyan, 0 0 25px cyan,
+    0px 0px 25px cyan, 0 0 50px cyan,
+    0px 0px 100px cyan, 0 0 200px cyan;
+     
+
+
+
+
+}
+
+b{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ 
+.p1{
+    font-size:40px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+
+
+.p2{
+    font-size: 25px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+} 
+
+.sv1{
+
+    height:50px;
+    width: 50px;
+    
+    transition: 1s;
+    
+}
+
+.sv1:hover{
+    height:60px;
+    width: 60px;
+    
+    border-radius:30px ;
+    background-color: cyan;
+    box-shadow: 0px 0px 5px  cyan, 5px 5px 25px cyan, 10px 10px 100px  cyan, 100px 100px 1000px  cyan;
+}
+
+.a{
+
+} 
+
+.box{
+    
+} 
+
+.c{
+    
+}
+
+
+.d{
+    
+}
+
+
+
+
+.ap{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(hit.jpg);
+    background-color:black;
+    background-size: cover;
+
+}
+.ap2{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(v.png);
+    background-color: black;
+
+}
+
+.ap3{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(i2.jpg);
+    background-color: black;
+
+}
+
+
+.ap4{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(htc.jpg);
+    background-size: cover;
+    background-color: black;
+
+}
+
+
+.ap5{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(lp.jpg);
+    background-size: cover;
+    background-color: black;
+
+}
+
+.ap6{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(pix.jpg);
+    background-size: cover;
+    background-color: black;
+
+}
+
+.ap7{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(hd2.jpg);
+    background-size: cover;
+    background-color: black;
+
+}
+
+.ap8{
+
+    height: 800px;
+    width: 1366px;
+    background-image: url(eye.jpg);
+    background-size: cover;
+    background-color: black;
+
+}
+
+
+.ap9{
+
+    height: 1500px;
+    width: 1400px;
+    background-image: url(wt.jpg);
+    background-size: cover;
+    background-color: black;
+
+}
+
+
+.fn{
+    height: 1200px;
+    width: 1366px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.sv5{
+    height: 500px;
+    width: 500px;
+    padding-top:  200px; 
+    padding-bottom:  200px;
+     padding-right:  200px;
+    padding-left: 200px;
+    border-radius: 1000px;
+    transition: 2s;
+
+
+
+
+}
+.sv5:hover{
+
+    background-color: white;
+    box-shadow:0px 0px 5px white, 0 0 25px white,
+    0px 0px 25px white, 0 0 50px white,
+    0px 0px 100px white, 0 0 200px white;
+}
+
+    
